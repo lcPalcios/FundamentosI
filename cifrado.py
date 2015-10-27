@@ -10,3 +10,5 @@ for indice in range(0,len(texto)):
     textoCifrado += chr(codigo)
 
 print "El texto cifrado es: %s" %textoCifrado
+
+print textoCifrado.split("#")
