@@ -14,7 +14,6 @@ if op ==1:
     print "El texto cifrado es: %s" %textoCifrado
 elif op==2:
     textoCifrado = raw_input("Escriba el texto Cifrado")
-
     for letra in textoCifrado:
         textoPlano += chr(ord(letra)-3)
     print "El texto Descrifrado es: %s " %textoPlano
